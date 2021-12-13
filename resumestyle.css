@@ -1,0 +1,121 @@
+h1:nth-child(1) {
+  font-family: "Brush Script MT", cursive;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+  opacity: 0.8;
+  margin-left: 0px;
+}
+
+body {
+  background-image: url("images/peachwallpaper.png");
+  background-position: top;
+  background-size: 2000px 480px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: hue;
+}
+
+main {
+  background-color: #FDF5E6;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left: 90px;
+  margin-right: 180px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  top: 0;
+  background-color: #D8BFD8;
+  overflow-x: hidden;
+  padding-top: 180px;
+  right: 0;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  font-size: 15px;
+  color: white;
+  display: block;
+  right: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.sidenav a:hover, a:active {
+  background-color: darkgray;
+    color: black;
+}
+
+
+img {
+  float: left;
+  width: 350px;
+  border-radius: 5%;
+  padding-top: 35px;
+  padding-left: 100px;
+  padding-right: 120px;
+  padding-bottom: 20px;
+}
+
+article {
+  margin-left: 120px;
+  width: 750px;
+}
+
+h2 {
+  color: black;
+  font-size: 30px;
+  font-family: "Arial", sans-serif;
+  text-transform: uppercase;
+  text-align: justify;
+  margin-left: 190px;
+  padding-top: 80px;
+  padding-left: 330px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 47%);
+  font-size: 10px;
+  text-align: justify;
+  margin-left: 190px;
+  padding-left: 330px;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  text-align: justify;
+  margin-left: 190px;
+  padding-left: 330px;
+  color: gray;
+}
+
+#check{
+  padding-bottom: 200px;
+}
+
+a[href="Hire"] {
+  border-style: solid;
+  border-width: thin;
+  background-color: #BC8F8F;
+  border-color: #BC8F8F;
+  color: white;
+  font-size: 12px;
+  font: font-family: Arial, sans-serif;
+  padding: 8px;
+  text-decoration: none;
+}
+
+a[href="Hire"]:hover {
+  color: black;
+}
